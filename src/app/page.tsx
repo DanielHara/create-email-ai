@@ -1,9 +1,9 @@
-import Hero from "../../components/section/Hero";
+import SendEmail from "../../components/section/SendEmail";
 
-export default function Home() {
+export default function MainPage() {
   return (
     <>
-      <Hero />
+      <SendEmail />
     </>
   );
 }

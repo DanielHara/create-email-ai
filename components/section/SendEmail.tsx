@@ -1,6 +1,6 @@
 import { Button } from "../ui/button";
 
-const Hero = () => {
+const SendEmail = () => {
   return (
     <div>
       <Button className="m-5">
@@ -10,4 +10,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default SendEmail;
