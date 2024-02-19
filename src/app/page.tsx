@@ -1,8 +1,10 @@
 'use client'
 
 import { useState } from "react";
-import { Button } from '../../components/ui/button'
-import { Textarea } from '../../components/ui/textarea'
+import { Button } from '../../components/ui/button';
+import { Textarea } from '../../components/ui/textarea';
+
+import { triggerExtension } from './actions';
 
 const MainPage = () => {
   const [emailDescription, setEmailDescription] = useState('');
@@ -17,7 +19,7 @@ const MainPage = () => {
       </div>
 
       <Button className="m-5" onClick={() => {
-        alert(emailDescription)
+        triggerExtension();
       }}>
         Send email
       </Button>
