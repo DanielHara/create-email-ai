@@ -19,7 +19,7 @@ const MainPage = () => {
       </div>
 
       <Button className="m-5" onClick={() => {
-        triggerExtension();
+        triggerExtension(emailDescription);
       }}>
         Send email
       </Button>
